@@ -1,0 +1,1198 @@
+{
+  "topic": "natural language processing",
+  "timestamp": "2026-01-13T20:50:04.956425",
+  "pruning_stats": {
+    "original_papers": 44,
+    "pruned_papers": 15,
+    "removed_papers": 29,
+    "pruning_mode": "comprehensive",
+    "strong_components_count": 3,
+    "components_with_seed": 0,
+    "largest_component_size": 7,
+    "seed_papers": 1,
+    "original_edges": 50,
+    "strong_edges": 12,
+    "weak_edges_removed": 1,
+    "retention_rate": 0.3409090909090909,
+    "relation_type_distribution": {
+      "Overcomes": 4,
+      "Alternative": 4,
+      "Baselines": 1,
+      "Adapts_to": 3,
+      "Extends": 1
+    }
+  },
+  "evolutionary_paths": [
+    {
+      "thread_type": "convergence",
+      "pattern_type": "The Convergence (汇聚模式)",
+      "title": "多技术路线汇聚到 The authors propose a vector space model for automatic indexing, where each enti",
+      "narrative": "**背景**: 在1975年之前，该领域存在多个独立的研究方向。**路线1** (替代型): 提供了 Propose a statistical interpretation of term specificity, where specificity is b 作为平行方案，被中心论文整合；**路线2** (克服型): 识别了「未找到明确的局限性描述」，为中心论文提供了待解决的问题；**路线3** (替代型): 提供了 Characterize the usefulness of terms based on their frequency characteristics, i 作为平行方案，被中心论文整合。这些方向各自为政，缺乏系统性整合。\n\n**汇聚**: 论文《A vector space model for automatic indexing》(1975) 在此背景下应运而生，它通过 The authors propose a vector space model for automatic indexing, where each enti 将这 3 条独立路线有机整合，形成了统一的技术框架来解决 In document retrieval or pattern matching environments, stored entities (e.g., d。\n\n**意义**: 这种多方向汇聚标志着该领域从探索阶段迈入系统化阶段，使得原本分散的技术路线得以协同发挥作用，推动了领域的理论统一和实践深化。",
+      "center_paper": "A vector space model for automatic indexing",
+      "routes_count": 3,
+      "routes": [
+        {
+          "relation_type": "Alternative",
+          "papers": [
+            {
+              "paper_id": "W2075006521",
+              "title": "ON THE SPECIFICATION OF TERM VALUES IN AUTOMATIC INDEXING",
+              "year": 1973,
+              "cited_by_count": 571
+            },
+            {
+              "paper_id": "W2144211451",
+              "title": "A STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL",
+              "year": 1972,
+              "cited_by_count": 4313
+            }
+          ]
+        },
+        {
+          "relation_type": "Overcomes",
+          "papers": [
+            {
+              "paper_id": "W1908696901",
+              "title": "A Theory of Indexing",
+              "year": 1975,
+              "cited_by_count": 120
+            }
+          ]
+        },
+        {
+          "relation_type": "Alternative",
+          "papers": [
+            {
+              "paper_id": "W2568360633",
+              "title": "Contribution to the Theory of Indexing",
+              "year": 1973,
+              "cited_by_count": 17
+            }
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "paper_id": "W2165612380",
+          "title": "A vector space model for automatic indexing",
+          "year": 1975,
+          "cited_by_count": 7329,
+          "role": "center"
+        },
+        {
+          "paper_id": "W2075006521",
+          "title": "ON THE SPECIFICATION OF TERM VALUES IN AUTOMATIC INDEXING",
+          "year": 1973,
+          "cited_by_count": 571
+        },
+        {
+          "paper_id": "W2144211451",
+          "title": "A STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL",
+          "year": 1972,
+          "cited_by_count": 4313
+        },
+        {
+          "paper_id": "W1908696901",
+          "title": "A Theory of Indexing",
+          "year": 1975,
+          "cited_by_count": 120
+        },
+        {
+          "paper_id": "W2568360633",
+          "title": "Contribution to the Theory of Indexing",
+          "year": 1973,
+          "cited_by_count": 17
+        }
+      ],
+      "total_citations": 12350,
+      "visual_structure": "3 Routes -> Center",
+      "relation_chain": [
+        {
+          "from_paper": {
+            "id": "W2075006521",
+            "title": "ON THE SPECIFICATION OF TERM VALUES IN AUTOMATIC INDEXING",
+            "year": 1973
+          },
+          "to_paper": {
+            "id": "W2165612380",
+            "title": "A vector space model for automatic indexing",
+            "year": 1975
+          },
+          "relation_type": "Alternative",
+          "narrative_relation": "被A vector space model for automatic indexing整合",
+          "route_id": 1,
+          "direction": "chronological"
+        },
+        {
+          "from_paper": {
+            "id": "W1908696901",
+            "title": "A Theory of Indexing",
+            "year": 1975
+          },
+          "to_paper": {
+            "id": "W2165612380",
+            "title": "A vector space model for automatic indexing",
+            "year": 1975
+          },
+          "relation_type": "Overcomes",
+          "narrative_relation": "被A vector space model for automatic indexing整合",
+          "route_id": 2,
+          "direction": "chronological"
+        },
+        {
+          "from_paper": {
+            "id": "W2568360633",
+            "title": "Contribution to the Theory of Indexing",
+            "year": 1973
+          },
+          "to_paper": {
+            "id": "W2165612380",
+            "title": "A vector space model for automatic indexing",
+            "year": 1975
+          },
+          "relation_type": "Alternative",
+          "narrative_relation": "被A vector space model for automatic indexing整合",
+          "route_id": 3,
+          "direction": "chronological"
+        }
+      ],
+      "component_id": 133914149640512
+    },
+    {
+      "thread_type": "divergence",
+      "pattern_type": "The Divergence (分化模式)",
+      "title": "针对 In document retrieval or pattern matching environments, stored entities (e.g., d 的多技术路线博弈",
+      "narrative": "**焦点**: 论文《A vector space model for automatic indexing》(1975) 是该领域的基石工作，它聚焦于 In document retrieval or pattern matching environments, stored entities (e.g., d，但留下了 未找到明确的局限性描述 的问题。\n\n**分歧**: 学术界对此产生了不同的演进路线。**路线1** (横向扩散): 将技术迁移到「新领域」，采用 The introduction and use of Vector Space Models (VSMs) for semantic processing o；**路线2** (横向扩散): 将技术迁移到「新领域」，采用 Developing a method or system for visualizing knowledge domains that organizes a。\n\n**对比**: 这些路线各有优势，共同推动了领域的多元化发展。（详见各路线论文的性能对比）",
+      "center_paper": "A vector space model for automatic indexing",
+      "routes_count": 2,
+      "routes": [
+        {
+          "relation_type": "Adapts_to",
+          "papers": [
+            {
+              "paper_id": "W1662133657",
+              "title": "From Frequency to Meaning: Vector Space Models of Semantics",
+              "year": 2010,
+              "cited_by_count": 2831
+            }
+          ]
+        },
+        {
+          "relation_type": "Adapts_to",
+          "papers": [
+            {
+              "paper_id": "W2045108252",
+              "title": "Visualizing knowledge domains",
+              "year": 2003,
+              "cited_by_count": 1736
+            }
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "paper_id": "W2165612380",
+          "title": "A vector space model for automatic indexing",
+          "year": 1975,
+          "cited_by_count": 7329,
+          "role": "center"
+        },
+        {
+          "paper_id": "W1662133657",
+          "title": "From Frequency to Meaning: Vector Space Models of Semantics",
+          "year": 2010,
+          "cited_by_count": 2831
+        },
+        {
+          "paper_id": "W2045108252",
+          "title": "Visualizing knowledge domains",
+          "year": 2003,
+          "cited_by_count": 1736
+        }
+      ],
+      "total_citations": 11896,
+      "visual_structure": "Center -> 2 Routes",
+      "relation_chain": [
+        {
+          "from_paper": {
+            "id": "W2165612380",
+            "title": "A vector space model for automatic indexing",
+            "year": 1975
+          },
+          "to_paper": {
+            "id": "W1662133657",
+            "title": "From Frequency to Meaning: Vector Space Models of Semantics",
+            "year": 2010
+          },
+          "relation_type": "Adapts_to",
+          "narrative_relation": "Was_Adapted_By",
+          "route_id": 1,
+          "direction": "chronological"
+        },
+        {
+          "from_paper": {
+            "id": "W2165612380",
+            "title": "A vector space model for automatic indexing",
+            "year": 1975
+          },
+          "to_paper": {
+            "id": "W2045108252",
+            "title": "Visualizing knowledge domains",
+            "year": 2003
+          },
+          "relation_type": "Adapts_to",
+          "narrative_relation": "Was_Adapted_By",
+          "route_id": 2,
+          "direction": "chronological"
+        }
+      ],
+      "component_id": 133914149640512
+    },
+    {
+      "thread_type": "divergence",
+      "pattern_type": "The Divergence (分化模式)",
+      "title": "针对 Policymakers face challenges in analyzing large volumes of unstructured text dat 的多技术路线博弈",
+      "narrative": "**焦点**: 论文《Natural Language Processing for Policymaking》(2022) 是该领域的基石工作，它聚焦于 Policymakers face challenges in analyzing large volumes of unstructured text dat，但留下了 未找到明确的局限性描述 的问题。\n\n**分歧**: 学术界对此产生了不同的演进路线。**路线1** (横向扩散): 将技术迁移到「新领域」，采用 The key development or mechanism proposed by the authors would be summarized her；**路线2** (颠覆创新): 提出截然不同的替代方案，使用 Utilization of artificial intelligence to enhance data processing, predictive mo；**路线3** (微创新): 保留核心架构并扩展，采用 The development and use of indices via natural language processing (NLP) techniq。\n\n**对比**: 这些路线体现了学术研究的多样性：一些选择颠覆式创新，另一些选择渐进式改进。（详见各路线论文的性能对比）",
+      "center_paper": "Natural Language Processing for Policymaking",
+      "routes_count": 3,
+      "routes": [
+        {
+          "relation_type": "Adapts_to",
+          "papers": [
+            {
+              "paper_id": "W4403637392",
+              "title": "How developments in natural language processing help us in understanding human behaviour",
+              "year": 2024,
+              "cited_by_count": 14
+            }
+          ]
+        },
+        {
+          "relation_type": "Alternative",
+          "papers": [
+            {
+              "paper_id": "W4402418067",
+              "title": "Governing with Intelligence: The Impact of Artificial Intelligence on Policy Development",
+              "year": 2024,
+              "cited_by_count": 7
+            }
+          ]
+        },
+        {
+          "relation_type": "Extends",
+          "papers": [
+            {
+              "paper_id": "W4393097350",
+              "title": "Exploring the role of uncertainty, emotions, and scientific discourse during the COVID-19 pandemic",
+              "year": 2024,
+              "cited_by_count": 4
+            }
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "paper_id": "W4317823603",
+          "title": "Natural Language Processing for Policymaking",
+          "year": 2022,
+          "cited_by_count": 12,
+          "role": "center"
+        },
+        {
+          "paper_id": "W4403637392",
+          "title": "How developments in natural language processing help us in understanding human behaviour",
+          "year": 2024,
+          "cited_by_count": 14
+        },
+        {
+          "paper_id": "W4402418067",
+          "title": "Governing with Intelligence: The Impact of Artificial Intelligence on Policy Development",
+          "year": 2024,
+          "cited_by_count": 7
+        },
+        {
+          "paper_id": "W4393097350",
+          "title": "Exploring the role of uncertainty, emotions, and scientific discourse during the COVID-19 pandemic",
+          "year": 2024,
+          "cited_by_count": 4
+        }
+      ],
+      "total_citations": 37,
+      "visual_structure": "Center -> 3 Routes",
+      "relation_chain": [
+        {
+          "from_paper": {
+            "id": "W4317823603",
+            "title": "Natural Language Processing for Policymaking",
+            "year": 2022
+          },
+          "to_paper": {
+            "id": "W4403637392",
+            "title": "How developments in natural language processing help us in understanding human behaviour",
+            "year": 2024
+          },
+          "relation_type": "Adapts_to",
+          "narrative_relation": "Was_Adapted_By",
+          "route_id": 1,
+          "direction": "chronological"
+        },
+        {
+          "from_paper": {
+            "id": "W4317823603",
+            "title": "Natural Language Processing for Policymaking",
+            "year": 2022
+          },
+          "to_paper": {
+            "id": "W4402418067",
+            "title": "Governing with Intelligence: The Impact of Artificial Intelligence on Policy Development",
+            "year": 2024
+          },
+          "relation_type": "Alternative",
+          "narrative_relation": "Led_To_Alternative",
+          "route_id": 2,
+          "direction": "chronological"
+        },
+        {
+          "from_paper": {
+            "id": "W4317823603",
+            "title": "Natural Language Processing for Policymaking",
+            "year": 2022
+          },
+          "to_paper": {
+            "id": "W4393097350",
+            "title": "Exploring the role of uncertainty, emotions, and scientific discourse during the COVID-19 pandemic",
+            "year": 2024
+          },
+          "relation_type": "Extends",
+          "narrative_relation": "Was_Extended_By",
+          "route_id": 3,
+          "direction": "chronological"
+        }
+      ],
+      "component_id": 133914147174656
+    },
+    {
+      "thread_type": "convergence",
+      "pattern_type": "The Convergence (汇聚模式)",
+      "title": "多技术路线汇聚到 The authors propose incorporating ethical competence into translator training pr",
+      "narrative": "**背景**: 在2023年之前，该领域存在多个独立的研究方向。**路线1** (克服型): 识别了「未找到明确的局限性描述」，为中心论文提供了待解决的问题；**路线2** (克服型): 识别了「未找到明确的局限性描述」，为中心论文提供了待解决的问题。这些方向各自为政，缺乏系统性整合。\n\n**汇聚**: 论文《Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training》(2023) 在此背景下应运而生，它通过 The authors propose incorporating ethical competence into translator training pr 将这 2 条独立路线有机整合，形成了统一的技术框架来解决 The integration of technology and artificial intelligence in translation practic。\n\n**意义**: 这种多方向汇聚为该领域提供了理论整合的范例，使得原本分散的技术路线得以协同发挥作用，推动了领域的理论统一和实践深化。",
+      "center_paper": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+      "routes_count": 2,
+      "routes": [
+        {
+          "relation_type": "Overcomes",
+          "papers": [
+            {
+              "paper_id": "W2083078026",
+              "title": "Ethical Aspects of Translation: Striking a Balance between Following Translation Ethics and Producing a TT for Serving a Specific Purpose",
+              "year": 2014,
+              "cited_by_count": 10
+            }
+          ]
+        },
+        {
+          "relation_type": "Overcomes",
+          "papers": [
+            {
+              "paper_id": "W3183428091",
+              "title": "TEACHING ETHICS AND CRITICAL THINKING IN CONTEMPORARY SCHOOLS",
+              "year": 2014,
+              "cited_by_count": 11
+            }
+          ]
+        }
+      ],
+      "papers": [
+        {
+          "paper_id": "W4360845368",
+          "title": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+          "year": 2023,
+          "cited_by_count": 24,
+          "role": "center"
+        },
+        {
+          "paper_id": "W2083078026",
+          "title": "Ethical Aspects of Translation: Striking a Balance between Following Translation Ethics and Producing a TT for Serving a Specific Purpose",
+          "year": 2014,
+          "cited_by_count": 10
+        },
+        {
+          "paper_id": "W3183428091",
+          "title": "TEACHING ETHICS AND CRITICAL THINKING IN CONTEMPORARY SCHOOLS",
+          "year": 2014,
+          "cited_by_count": 11
+        }
+      ],
+      "total_citations": 45,
+      "visual_structure": "2 Routes -> Center",
+      "relation_chain": [
+        {
+          "from_paper": {
+            "id": "W2083078026",
+            "title": "Ethical Aspects of Translation: Striking a Balance between Following Translation Ethics and Producing a TT for Serving a Specific Purpose",
+            "year": 2014
+          },
+          "to_paper": {
+            "id": "W4360845368",
+            "title": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+            "year": 2023
+          },
+          "relation_type": "Overcomes",
+          "narrative_relation": "被Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training整合",
+          "route_id": 1,
+          "direction": "chronological"
+        },
+        {
+          "from_paper": {
+            "id": "W3183428091",
+            "title": "TEACHING ETHICS AND CRITICAL THINKING IN CONTEMPORARY SCHOOLS",
+            "year": 2014
+          },
+          "to_paper": {
+            "id": "W4360845368",
+            "title": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+            "year": 2023
+          },
+          "relation_type": "Overcomes",
+          "narrative_relation": "被Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training整合",
+          "route_id": 2,
+          "direction": "chronological"
+        }
+      ],
+      "component_id": 133914147163136
+    },
+    {
+      "thread_type": "chain",
+      "pattern_type": "The Chain (线性链条)",
+      "title": "从 The authors propose an approach to monitor and analyze citizen sentiment on soci 到 The key development or mechanism proposed by the authors would be summarized her 的演进之路",
+      "narrative": "**起源** (2013年): 论文《The New Eye of Government: Citizen Sentiment Analysis in Social Media》首次提出了 The authors propose an approach to monitor and analyze citizen sentiment on soci 来解决 Governments struggle to achieve transparency and engagement with their citizens ，开创了这一研究方向。然而，该工作在 未找到明确的局限性描述 方面仍存在局限性。\n\n**另辟蹊径** (2022年): 不同于前人「The authors propose an approach to monitor and analyze citizen sentiment on soci」的思路，论文《Natural Language Processing for Policymaking》提出了 The application of Natural Language Processing (NLP) techniques to process, cate，探索了解决问题的新范式。\n\n**跨域迁移** (2024年): 论文《How developments in natural language processing help us in understanding human behaviour》将前人在「原领域」的技术成功迁移到「新领域」，通过 The key development or mechanism proposed by the authors would be summarized her 验证了方法的泛化能力。",
+      "papers": [
+        {
+          "paper_id": "W2251172991",
+          "title": "The New Eye of Government: Citizen Sentiment Analysis in Social Media",
+          "year": 2013,
+          "cited_by_count": 38
+        },
+        {
+          "paper_id": "W4317823603",
+          "title": "Natural Language Processing for Policymaking",
+          "year": 2022,
+          "cited_by_count": 12
+        },
+        {
+          "paper_id": "W4403637392",
+          "title": "How developments in natural language processing help us in understanding human behaviour",
+          "year": 2024,
+          "cited_by_count": 14
+        }
+      ],
+      "total_citations": 64,
+      "visual_structure": "Paper_1 -> Paper_2 -> Paper_3",
+      "relation_chain": [
+        {
+          "from_paper": {
+            "id": "W2251172991",
+            "title": "The New Eye of Government: Citizen Sentiment Analysis in Social Media",
+            "year": 2013
+          },
+          "to_paper": {
+            "id": "W4317823603",
+            "title": "Natural Language Processing for Policymaking",
+            "year": 2022
+          },
+          "relation_type": "Alternative",
+          "narrative_relation": "Led_To_Alternative",
+          "direction": "chronological"
+        },
+        {
+          "from_paper": {
+            "id": "W4317823603",
+            "title": "Natural Language Processing for Policymaking",
+            "year": 2022
+          },
+          "to_paper": {
+            "id": "W4403637392",
+            "title": "How developments in natural language processing help us in understanding human behaviour",
+            "year": 2024
+          },
+          "relation_type": "Adapts_to",
+          "narrative_relation": "Was_Adapted_By",
+          "direction": "chronological"
+        }
+      ],
+      "component_id": 133914147174656
+    }
+  ],
+  "survey_report": {
+    "title": "Deep Survey: natural language processing",
+    "abstract": "本综述基于知识图谱分析了 natural language processing 领域的演进历程。通过关系剪枝，我们从原始图谱中筛选出 15 篇高质量论文，并识别出 5 条关键演化路径。其中包括 1 条线性技术链条、2 个分化结构和 2 个汇聚结构，完整呈现了该领域的技术演进脉络、分化趋势和整合模式。",
+    "threads": [
+      {
+        "thread_id": 1,
+        "thread_name": "Thread 1: The Convergence (汇聚模式)",
+        "title": "多技术路线汇聚到 The authors propose a vector space model for automatic indexing, where each enti",
+        "pattern_type": "The Convergence (汇聚模式)",
+        "thread_type": "convergence",
+        "narrative": "**背景**: 在1975年之前，该领域存在多个独立的研究方向。**路线1** (替代型): 提供了 Propose a statistical interpretation of term specificity, where specificity is b 作为平行方案，被中心论文整合；**路线2** (克服型): 识别了「未找到明确的局限性描述」，为中心论文提供了待解决的问题；**路线3** (替代型): 提供了 Characterize the usefulness of terms based on their frequency characteristics, i 作为平行方案，被中心论文整合。这些方向各自为政，缺乏系统性整合。\n\n**汇聚**: 论文《A vector space model for automatic indexing》(1975) 在此背景下应运而生，它通过 The authors propose a vector space model for automatic indexing, where each enti 将这 3 条独立路线有机整合，形成了统一的技术框架来解决 In document retrieval or pattern matching environments, stored entities (e.g., d。\n\n**意义**: 这种多方向汇聚标志着该领域从探索阶段迈入系统化阶段，使得原本分散的技术路线得以协同发挥作用，推动了领域的理论统一和实践深化。",
+        "papers": [
+          {
+            "paper_id": "W2165612380",
+            "title": "A vector space model for automatic indexing",
+            "year": 1975,
+            "cited_by_count": 7329,
+            "role": "center"
+          },
+          {
+            "paper_id": "W2075006521",
+            "title": "ON THE SPECIFICATION OF TERM VALUES IN AUTOMATIC INDEXING",
+            "year": 1973,
+            "cited_by_count": 571
+          },
+          {
+            "paper_id": "W2144211451",
+            "title": "A STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL",
+            "year": 1972,
+            "cited_by_count": 4313
+          },
+          {
+            "paper_id": "W1908696901",
+            "title": "A Theory of Indexing",
+            "year": 1975,
+            "cited_by_count": 120
+          },
+          {
+            "paper_id": "W2568360633",
+            "title": "Contribution to the Theory of Indexing",
+            "year": 1973,
+            "cited_by_count": 17
+          }
+        ],
+        "total_citations": 12350,
+        "visual_structure": "3 Routes -> Center",
+        "relation_stats": {
+          "total_relations": 3,
+          "relation_distribution": {
+            "Alternative": 2,
+            "Overcomes": 1
+          },
+          "dominant_relation": "Alternative"
+        },
+        "relation_chain": [
+          {
+            "from_paper": {
+              "id": "W2075006521",
+              "title": "ON THE SPECIFICATION OF TERM VALUES IN AUTOMATIC INDEXING",
+              "year": 1973
+            },
+            "to_paper": {
+              "id": "W2165612380",
+              "title": "A vector space model for automatic indexing",
+              "year": 1975
+            },
+            "relation_type": "Alternative",
+            "narrative_relation": "被A vector space model for automatic indexing整合",
+            "route_id": 1,
+            "direction": "chronological"
+          },
+          {
+            "from_paper": {
+              "id": "W1908696901",
+              "title": "A Theory of Indexing",
+              "year": 1975
+            },
+            "to_paper": {
+              "id": "W2165612380",
+              "title": "A vector space model for automatic indexing",
+              "year": 1975
+            },
+            "relation_type": "Overcomes",
+            "narrative_relation": "被A vector space model for automatic indexing整合",
+            "route_id": 2,
+            "direction": "chronological"
+          },
+          {
+            "from_paper": {
+              "id": "W2568360633",
+              "title": "Contribution to the Theory of Indexing",
+              "year": 1973
+            },
+            "to_paper": {
+              "id": "W2165612380",
+              "title": "A vector space model for automatic indexing",
+              "year": 1975
+            },
+            "relation_type": "Alternative",
+            "narrative_relation": "被A vector space model for automatic indexing整合",
+            "route_id": 3,
+            "direction": "chronological"
+          }
+        ],
+        "visualization_data": {
+          "nodes": [
+            {
+              "id": "W2165612380",
+              "label": "Center",
+              "title": "A vector space model for automatic indexing",
+              "year": 1975,
+              "citations": 7329,
+              "role": "center"
+            },
+            {
+              "id": "W2075006521",
+              "label": "ON THE SPECIFICATION OF TERM V...",
+              "title": "ON THE SPECIFICATION OF TERM VALUES IN AUTOMATIC INDEXING",
+              "year": 1973,
+              "citations": 571
+            },
+            {
+              "id": "W2144211451",
+              "label": "A STATISTICAL INTERPRETATION O...",
+              "title": "A STATISTICAL INTERPRETATION OF TERM SPECIFICITY AND ITS APPLICATION IN RETRIEVAL",
+              "year": 1972,
+              "citations": 4313
+            },
+            {
+              "id": "W1908696901",
+              "label": "A Theory of Indexing...",
+              "title": "A Theory of Indexing",
+              "year": 1975,
+              "citations": 120
+            },
+            {
+              "id": "W2568360633",
+              "label": "Contribution to the Theory of ...",
+              "title": "Contribution to the Theory of Indexing",
+              "year": 1973,
+              "citations": 17
+            }
+          ],
+          "edges": [
+            {
+              "source": "W2075006521",
+              "target": "W2165612380",
+              "type": "Alternative",
+              "direction": "forward"
+            },
+            {
+              "source": "W1908696901",
+              "target": "W2165612380",
+              "type": "Overcomes",
+              "direction": "forward"
+            },
+            {
+              "source": "W2568360633",
+              "target": "W2165612380",
+              "type": "Alternative",
+              "direction": "forward"
+            }
+          ],
+          "layout": "radial",
+          "direction_note": "箭头方向表示时间演进方向（早年份 → 晚年份）",
+          "pattern_note": "divergence=中心扩散, convergence=多源汇聚"
+        }
+      },
+      {
+        "thread_id": 2,
+        "thread_name": "Thread 2: The Divergence (分化模式)",
+        "title": "针对 In document retrieval or pattern matching environments, stored entities (e.g., d 的多技术路线博弈",
+        "pattern_type": "The Divergence (分化模式)",
+        "thread_type": "divergence",
+        "narrative": "**焦点**: 论文《A vector space model for automatic indexing》(1975) 是该领域的基石工作，它聚焦于 In document retrieval or pattern matching environments, stored entities (e.g., d，但留下了 未找到明确的局限性描述 的问题。\n\n**分歧**: 学术界对此产生了不同的演进路线。**路线1** (横向扩散): 将技术迁移到「新领域」，采用 The introduction and use of Vector Space Models (VSMs) for semantic processing o；**路线2** (横向扩散): 将技术迁移到「新领域」，采用 Developing a method or system for visualizing knowledge domains that organizes a。\n\n**对比**: 这些路线各有优势，共同推动了领域的多元化发展。（详见各路线论文的性能对比）",
+        "papers": [
+          {
+            "paper_id": "W2165612380",
+            "title": "A vector space model for automatic indexing",
+            "year": 1975,
+            "cited_by_count": 7329,
+            "role": "center"
+          },
+          {
+            "paper_id": "W1662133657",
+            "title": "From Frequency to Meaning: Vector Space Models of Semantics",
+            "year": 2010,
+            "cited_by_count": 2831
+          },
+          {
+            "paper_id": "W2045108252",
+            "title": "Visualizing knowledge domains",
+            "year": 2003,
+            "cited_by_count": 1736
+          }
+        ],
+        "total_citations": 11896,
+        "visual_structure": "Center -> 2 Routes",
+        "relation_stats": {
+          "total_relations": 2,
+          "relation_distribution": {
+            "Adapts_to": 2
+          },
+          "dominant_relation": "Adapts_to"
+        },
+        "relation_chain": [
+          {
+            "from_paper": {
+              "id": "W2165612380",
+              "title": "A vector space model for automatic indexing",
+              "year": 1975
+            },
+            "to_paper": {
+              "id": "W1662133657",
+              "title": "From Frequency to Meaning: Vector Space Models of Semantics",
+              "year": 2010
+            },
+            "relation_type": "Adapts_to",
+            "narrative_relation": "Was_Adapted_By",
+            "route_id": 1,
+            "direction": "chronological"
+          },
+          {
+            "from_paper": {
+              "id": "W2165612380",
+              "title": "A vector space model for automatic indexing",
+              "year": 1975
+            },
+            "to_paper": {
+              "id": "W2045108252",
+              "title": "Visualizing knowledge domains",
+              "year": 2003
+            },
+            "relation_type": "Adapts_to",
+            "narrative_relation": "Was_Adapted_By",
+            "route_id": 2,
+            "direction": "chronological"
+          }
+        ],
+        "visualization_data": {
+          "nodes": [
+            {
+              "id": "W2165612380",
+              "label": "Center",
+              "title": "A vector space model for automatic indexing",
+              "year": 1975,
+              "citations": 7329,
+              "role": "center"
+            },
+            {
+              "id": "W1662133657",
+              "label": "From Frequency to Meaning: Vec...",
+              "title": "From Frequency to Meaning: Vector Space Models of Semantics",
+              "year": 2010,
+              "citations": 2831
+            },
+            {
+              "id": "W2045108252",
+              "label": "Visualizing knowledge domains...",
+              "title": "Visualizing knowledge domains",
+              "year": 2003,
+              "citations": 1736
+            }
+          ],
+          "edges": [
+            {
+              "source": "W2165612380",
+              "target": "W1662133657",
+              "type": "Adapts_to",
+              "direction": "forward"
+            },
+            {
+              "source": "W2165612380",
+              "target": "W2045108252",
+              "type": "Adapts_to",
+              "direction": "forward"
+            }
+          ],
+          "layout": "radial",
+          "direction_note": "箭头方向表示时间演进方向（早年份 → 晚年份）",
+          "pattern_note": "divergence=中心扩散, convergence=多源汇聚"
+        }
+      },
+      {
+        "thread_id": 3,
+        "thread_name": "Thread 3: The Divergence (分化模式)",
+        "title": "针对 Policymakers face challenges in analyzing large volumes of unstructured text dat 的多技术路线博弈",
+        "pattern_type": "The Divergence (分化模式)",
+        "thread_type": "divergence",
+        "narrative": "**焦点**: 论文《Natural Language Processing for Policymaking》(2022) 是该领域的基石工作，它聚焦于 Policymakers face challenges in analyzing large volumes of unstructured text dat，但留下了 未找到明确的局限性描述 的问题。\n\n**分歧**: 学术界对此产生了不同的演进路线。**路线1** (横向扩散): 将技术迁移到「新领域」，采用 The key development or mechanism proposed by the authors would be summarized her；**路线2** (颠覆创新): 提出截然不同的替代方案，使用 Utilization of artificial intelligence to enhance data processing, predictive mo；**路线3** (微创新): 保留核心架构并扩展，采用 The development and use of indices via natural language processing (NLP) techniq。\n\n**对比**: 这些路线体现了学术研究的多样性：一些选择颠覆式创新，另一些选择渐进式改进。（详见各路线论文的性能对比）",
+        "papers": [
+          {
+            "paper_id": "W4317823603",
+            "title": "Natural Language Processing for Policymaking",
+            "year": 2022,
+            "cited_by_count": 12,
+            "role": "center"
+          },
+          {
+            "paper_id": "W4403637392",
+            "title": "How developments in natural language processing help us in understanding human behaviour",
+            "year": 2024,
+            "cited_by_count": 14
+          },
+          {
+            "paper_id": "W4402418067",
+            "title": "Governing with Intelligence: The Impact of Artificial Intelligence on Policy Development",
+            "year": 2024,
+            "cited_by_count": 7
+          },
+          {
+            "paper_id": "W4393097350",
+            "title": "Exploring the role of uncertainty, emotions, and scientific discourse during the COVID-19 pandemic",
+            "year": 2024,
+            "cited_by_count": 4
+          }
+        ],
+        "total_citations": 37,
+        "visual_structure": "Center -> 3 Routes",
+        "relation_stats": {
+          "total_relations": 3,
+          "relation_distribution": {
+            "Adapts_to": 1,
+            "Alternative": 1,
+            "Extends": 1
+          },
+          "dominant_relation": "Adapts_to"
+        },
+        "relation_chain": [
+          {
+            "from_paper": {
+              "id": "W4317823603",
+              "title": "Natural Language Processing for Policymaking",
+              "year": 2022
+            },
+            "to_paper": {
+              "id": "W4403637392",
+              "title": "How developments in natural language processing help us in understanding human behaviour",
+              "year": 2024
+            },
+            "relation_type": "Adapts_to",
+            "narrative_relation": "Was_Adapted_By",
+            "route_id": 1,
+            "direction": "chronological"
+          },
+          {
+            "from_paper": {
+              "id": "W4317823603",
+              "title": "Natural Language Processing for Policymaking",
+              "year": 2022
+            },
+            "to_paper": {
+              "id": "W4402418067",
+              "title": "Governing with Intelligence: The Impact of Artificial Intelligence on Policy Development",
+              "year": 2024
+            },
+            "relation_type": "Alternative",
+            "narrative_relation": "Led_To_Alternative",
+            "route_id": 2,
+            "direction": "chronological"
+          },
+          {
+            "from_paper": {
+              "id": "W4317823603",
+              "title": "Natural Language Processing for Policymaking",
+              "year": 2022
+            },
+            "to_paper": {
+              "id": "W4393097350",
+              "title": "Exploring the role of uncertainty, emotions, and scientific discourse during the COVID-19 pandemic",
+              "year": 2024
+            },
+            "relation_type": "Extends",
+            "narrative_relation": "Was_Extended_By",
+            "route_id": 3,
+            "direction": "chronological"
+          }
+        ],
+        "visualization_data": {
+          "nodes": [
+            {
+              "id": "W4317823603",
+              "label": "Center",
+              "title": "Natural Language Processing for Policymaking",
+              "year": 2022,
+              "citations": 12,
+              "role": "center"
+            },
+            {
+              "id": "W4403637392",
+              "label": "How developments in natural la...",
+              "title": "How developments in natural language processing help us in understanding human behaviour",
+              "year": 2024,
+              "citations": 14
+            },
+            {
+              "id": "W4402418067",
+              "label": "Governing with Intelligence: T...",
+              "title": "Governing with Intelligence: The Impact of Artificial Intelligence on Policy Development",
+              "year": 2024,
+              "citations": 7
+            },
+            {
+              "id": "W4393097350",
+              "label": "Exploring the role of uncertai...",
+              "title": "Exploring the role of uncertainty, emotions, and scientific discourse during the COVID-19 pandemic",
+              "year": 2024,
+              "citations": 4
+            }
+          ],
+          "edges": [
+            {
+              "source": "W4317823603",
+              "target": "W4403637392",
+              "type": "Adapts_to",
+              "direction": "forward"
+            },
+            {
+              "source": "W4317823603",
+              "target": "W4402418067",
+              "type": "Alternative",
+              "direction": "forward"
+            },
+            {
+              "source": "W4317823603",
+              "target": "W4393097350",
+              "type": "Extends",
+              "direction": "forward"
+            }
+          ],
+          "layout": "radial",
+          "direction_note": "箭头方向表示时间演进方向（早年份 → 晚年份）",
+          "pattern_note": "divergence=中心扩散, convergence=多源汇聚"
+        }
+      },
+      {
+        "thread_id": 4,
+        "thread_name": "Thread 4: The Convergence (汇聚模式)",
+        "title": "多技术路线汇聚到 The authors propose incorporating ethical competence into translator training pr",
+        "pattern_type": "The Convergence (汇聚模式)",
+        "thread_type": "convergence",
+        "narrative": "**背景**: 在2023年之前，该领域存在多个独立的研究方向。**路线1** (克服型): 识别了「未找到明确的局限性描述」，为中心论文提供了待解决的问题；**路线2** (克服型): 识别了「未找到明确的局限性描述」，为中心论文提供了待解决的问题。这些方向各自为政，缺乏系统性整合。\n\n**汇聚**: 论文《Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training》(2023) 在此背景下应运而生，它通过 The authors propose incorporating ethical competence into translator training pr 将这 2 条独立路线有机整合，形成了统一的技术框架来解决 The integration of technology and artificial intelligence in translation practic。\n\n**意义**: 这种多方向汇聚为该领域提供了理论整合的范例，使得原本分散的技术路线得以协同发挥作用，推动了领域的理论统一和实践深化。",
+        "papers": [
+          {
+            "paper_id": "W4360845368",
+            "title": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+            "year": 2023,
+            "cited_by_count": 24,
+            "role": "center"
+          },
+          {
+            "paper_id": "W2083078026",
+            "title": "Ethical Aspects of Translation: Striking a Balance between Following Translation Ethics and Producing a TT for Serving a Specific Purpose",
+            "year": 2014,
+            "cited_by_count": 10
+          },
+          {
+            "paper_id": "W3183428091",
+            "title": "TEACHING ETHICS AND CRITICAL THINKING IN CONTEMPORARY SCHOOLS",
+            "year": 2014,
+            "cited_by_count": 11
+          }
+        ],
+        "total_citations": 45,
+        "visual_structure": "2 Routes -> Center",
+        "relation_stats": {
+          "total_relations": 2,
+          "relation_distribution": {
+            "Overcomes": 2
+          },
+          "dominant_relation": "Overcomes"
+        },
+        "relation_chain": [
+          {
+            "from_paper": {
+              "id": "W2083078026",
+              "title": "Ethical Aspects of Translation: Striking a Balance between Following Translation Ethics and Producing a TT for Serving a Specific Purpose",
+              "year": 2014
+            },
+            "to_paper": {
+              "id": "W4360845368",
+              "title": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+              "year": 2023
+            },
+            "relation_type": "Overcomes",
+            "narrative_relation": "被Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training整合",
+            "route_id": 1,
+            "direction": "chronological"
+          },
+          {
+            "from_paper": {
+              "id": "W3183428091",
+              "title": "TEACHING ETHICS AND CRITICAL THINKING IN CONTEMPORARY SCHOOLS",
+              "year": 2014
+            },
+            "to_paper": {
+              "id": "W4360845368",
+              "title": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+              "year": 2023
+            },
+            "relation_type": "Overcomes",
+            "narrative_relation": "被Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training整合",
+            "route_id": 2,
+            "direction": "chronological"
+          }
+        ],
+        "visualization_data": {
+          "nodes": [
+            {
+              "id": "W4360845368",
+              "label": "Center",
+              "title": "Translation Technology and Ethical Competence: An Analysis and Proposal for Translators’ Training",
+              "year": 2023,
+              "citations": 24,
+              "role": "center"
+            },
+            {
+              "id": "W2083078026",
+              "label": "Ethical Aspects of Translation...",
+              "title": "Ethical Aspects of Translation: Striking a Balance between Following Translation Ethics and Producing a TT for Serving a Specific Purpose",
+              "year": 2014,
+              "citations": 10
+            },
+            {
+              "id": "W3183428091",
+              "label": "TEACHING ETHICS AND CRITICAL T...",
+              "title": "TEACHING ETHICS AND CRITICAL THINKING IN CONTEMPORARY SCHOOLS",
+              "year": 2014,
+              "citations": 11
+            }
+          ],
+          "edges": [
+            {
+              "source": "W2083078026",
+              "target": "W4360845368",
+              "type": "Overcomes",
+              "direction": "forward"
+            },
+            {
+              "source": "W3183428091",
+              "target": "W4360845368",
+              "type": "Overcomes",
+              "direction": "forward"
+            }
+          ],
+          "layout": "radial",
+          "direction_note": "箭头方向表示时间演进方向（早年份 → 晚年份）",
+          "pattern_note": "divergence=中心扩散, convergence=多源汇聚"
+        }
+      },
+      {
+        "thread_id": 5,
+        "thread_name": "Thread 5: The Chain (线性链条)",
+        "title": "从 The authors propose an approach to monitor and analyze citizen sentiment on soci 到 The key development or mechanism proposed by the authors would be summarized her 的演进之路",
+        "pattern_type": "The Chain (线性链条)",
+        "thread_type": "chain",
+        "narrative": "**起源** (2013年): 论文《The New Eye of Government: Citizen Sentiment Analysis in Social Media》首次提出了 The authors propose an approach to monitor and analyze citizen sentiment on soci 来解决 Governments struggle to achieve transparency and engagement with their citizens ，开创了这一研究方向。然而，该工作在 未找到明确的局限性描述 方面仍存在局限性。\n\n**另辟蹊径** (2022年): 不同于前人「The authors propose an approach to monitor and analyze citizen sentiment on soci」的思路，论文《Natural Language Processing for Policymaking》提出了 The application of Natural Language Processing (NLP) techniques to process, cate，探索了解决问题的新范式。\n\n**跨域迁移** (2024年): 论文《How developments in natural language processing help us in understanding human behaviour》将前人在「原领域」的技术成功迁移到「新领域」，通过 The key development or mechanism proposed by the authors would be summarized her 验证了方法的泛化能力。",
+        "papers": [
+          {
+            "paper_id": "W2251172991",
+            "title": "The New Eye of Government: Citizen Sentiment Analysis in Social Media",
+            "year": 2013,
+            "cited_by_count": 38
+          },
+          {
+            "paper_id": "W4317823603",
+            "title": "Natural Language Processing for Policymaking",
+            "year": 2022,
+            "cited_by_count": 12
+          },
+          {
+            "paper_id": "W4403637392",
+            "title": "How developments in natural language processing help us in understanding human behaviour",
+            "year": 2024,
+            "cited_by_count": 14
+          }
+        ],
+        "total_citations": 64,
+        "visual_structure": "Paper_1 -> Paper_2 -> Paper_3",
+        "relation_stats": {
+          "total_relations": 0,
+          "relation_distribution": {},
+          "dominant_relation": "Unknown"
+        },
+        "relation_chain": [
+          {
+            "from_paper": {
+              "id": "W2251172991",
+              "title": "The New Eye of Government: Citizen Sentiment Analysis in Social Media",
+              "year": 2013
+            },
+            "to_paper": {
+              "id": "W4317823603",
+              "title": "Natural Language Processing for Policymaking",
+              "year": 2022
+            },
+            "relation_type": "Alternative",
+            "narrative_relation": "Led_To_Alternative",
+            "direction": "chronological"
+          },
+          {
+            "from_paper": {
+              "id": "W4317823603",
+              "title": "Natural Language Processing for Policymaking",
+              "year": 2022
+            },
+            "to_paper": {
+              "id": "W4403637392",
+              "title": "How developments in natural language processing help us in understanding human behaviour",
+              "year": 2024
+            },
+            "relation_type": "Adapts_to",
+            "narrative_relation": "Was_Adapted_By",
+            "direction": "chronological"
+          }
+        ],
+        "visualization_data": {
+          "nodes": [
+            {
+              "id": "W2251172991",
+              "label": "Paper 1",
+              "title": "The New Eye of Government: Citizen Sentiment Analysis in Social Media",
+              "year": 2013,
+              "citations": 38
+            },
+            {
+              "id": "W4317823603",
+              "label": "Paper 2",
+              "title": "Natural Language Processing for Policymaking",
+              "year": 2022,
+              "citations": 12
+            },
+            {
+              "id": "W4403637392",
+              "label": "Paper 3",
+              "title": "How developments in natural language processing help us in understanding human behaviour",
+              "year": 2024,
+              "citations": 14
+            }
+          ],
+          "edges": [
+            {
+              "source": "W2251172991",
+              "target": "W4317823603",
+              "type": "chronological_evolution",
+              "label": "2013 → 2022"
+            },
+            {
+              "source": "W4317823603",
+              "target": "W4403637392",
+              "type": "chronological_evolution",
+              "label": "2022 → 2024"
+            }
+          ],
+          "layout": "hierarchical",
+          "direction_note": "箭头方向表示时间演进方向（早年份 → 晚年份）",
+          "pattern_note": ""
+        }
+      }
+    ],
+    "metadata": {
+      "total_papers_analyzed": 44,
+      "papers_after_pruning": 15,
+      "total_threads": 5,
+      "generation_date": "2026-01-13T20:50:04.956364"
+    }
+  },
+  "summary": {
+    "original_papers": 44,
+    "pruned_papers": 15,
+    "total_threads": 5
+  }
+}

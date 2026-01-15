@@ -1,0 +1,23 @@
+{
+  "topic": "natural language processing",
+  "timestamp": "20260113_205718",
+  "summary": {
+    "total_papers": 44,
+    "successful_analysis": 44,
+    "citation_edges": 50,
+    "graph_nodes": 44,
+    "graph_edges": 50,
+    "seed_count": 1,
+    "seed_ids": [
+      "W4205802268"
+    ],
+    "analysis_method": "multi-agent"
+  },
+  "files": {
+    "papers_data": "output/papers_natural_language_processing_20260113_205718.json",
+    "graph_data": "output/graph_data_natural_language_processing_20260113_205718.json",
+    "visualization": "output/graph_viz_natural_language_processing_20260113_205718.html",
+    "deep_survey": "output/deep_survey_natural_language_processing_20260113_205718.json",
+    "research_ideas": "output/research_ideas_natural_language_processing_20260113_205718.json"
+  }
+}
